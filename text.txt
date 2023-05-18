@@ -36,5 +36,9 @@ git add .
 git commit -m "Msg"
 git push -u origin main
 
+Rq
+git reset HEAD~2 --hard // pour supprimer les 2 derniers commits et retourner en arriere dans les fichiers
+git reset HEAD~2 --soft // pour supprimer les 2 derniers commits sans changer les fichiers
+
 
 
