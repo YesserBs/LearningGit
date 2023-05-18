@@ -1,7 +1,7 @@
 Support: 
 https://www.youtube.com/watch?v=eXF0epLeCgo&t=889s
 
-Open bash on file
+Open bash on folder
 git init // to add a .git file to the folder
 git add file_name1 file_name2 /* ceux ci sont les fichiers qu'on compte editer et enregstrer leurs modifications sinon : */
 git add . // concerne les fichiers modifiés seulment (plus pratique)
