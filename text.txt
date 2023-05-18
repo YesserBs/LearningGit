@@ -30,4 +30,11 @@ Maintenant pour partager le fichier sur internet:
 git push -u origin main // origin master dans le support mais il parrait que ca a changé dans les nouvelles versions
 /* Si cest la 1ere fois que vous utiliser bash pour publier sur le net il vous demendra une authentification vous navez qu'a confirmer sur github */
 
+Et voila!
+maintenant pour faire evoluer le travail avec des commits, il suffit de faire:
+git add .
+git commit -m "Msg"
+git push -u origin main
+
+
 
