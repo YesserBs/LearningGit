@@ -9,7 +9,7 @@ git status /* nous montre les changment qui sont en attente, cad qui peuvent etr
 git commit -m "Message" // pour enregistrer les modifications (Local)
 git log // Pour voir toutes les versions et leurs codes
 git checkout code-version // pour voir une version enregistrée
-git checkout master // te ramene a la version la plus recente 
+git checkout main // te ramene a la version la plus recente (checkout master dans le support)
 
 Rq: normalment pour faire checkout il ne faut pas avoir fait des modificationssur les fichiers  sinon ils seront ecrasés
 sinon si on veut pas faire de commit on peut faire ceci:
@@ -25,5 +25,9 @@ git clone lien // copie du repository
 Copier coller les fichiers dans le rep
 git add .
 git commit -m "Adding to github"
+
+Maintenant pour partager le fichier sur internet:
+git push -u origin main // origin master dans le support mais il parrait que ca a changé dans les nouvelles versions
+/* Si cest la 1ere fois que vous utiliser bash pour publier sur le net il vous demendra une authentification vous navez qu'a confirmer sur github */
 
 
