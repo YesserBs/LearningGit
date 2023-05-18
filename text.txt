@@ -1,0 +1,29 @@
+Support: 
+https://www.youtube.com/watch?v=eXF0epLeCgo&t=889s
+
+Open bash on file
+git init // to add a .git file to the folder
+git add file_name1 file_name2 /* ceux ci sont les fichiers qu'on compte editer et enregstrer leurs modifications sinon : */
+git add . // concerne les fichiers modifiés seulment (plus pratique)
+git status /* nous montre les changment qui sont en attente, cad qui peuvent etre enregistrées */
+git commit -m "Message" // pour enregistrer les modifications (Local)
+git log // Pour voir toutes les versions et leurs codes
+git checkout code-version // pour voir une version enregistrée
+git checkout master // te ramene a la version la plus recente 
+
+Rq: normalment pour faire checkout il ne faut pas avoir fait des modificationssur les fichiers  sinon ils seront ecrasés
+sinon si on veut pas faire de commit on peut faire ceci:
+git stash            # Stash your changes
+git checkout <branch>  # Switch to the desired branch
+git stash pop        # Apply the stashed changes back to your working directory
+
+STEP 2:
+creation de repository sur github
+Copier son lien
+ouvrir git bash sur desktop
+git clone lien // copie du repository
+Copier coller les fichiers dans le rep
+git add .
+git commit -m "Adding to github"
+
+
